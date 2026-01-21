@@ -1,0 +1,22 @@
+[
+  {
+    "number": "01",
+    "title": "Student Enrollment",
+    "desc": "Easily register and manage student profiles, including personal details, classes, and admission records."
+  },
+  {
+    "number": "02",
+    "title": "Academic Scheduling",
+    "desc": "Organize classes, subjects, and timetables efficiently for smooth school operations."
+  },
+  {
+    "number": "03",
+    "title": "Attendance & Performance",
+    "desc": "Track student and staff attendance, monitor academic progress, and generate performance reports."
+  },
+  {
+    "number": "04",
+    "title": "Parent & Teacher Communication",
+    "desc": "Facilitate seamless communication through notifications, announcements, and updates."
+  }
+]

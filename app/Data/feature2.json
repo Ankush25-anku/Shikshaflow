@@ -1,0 +1,20 @@
+[
+  {
+    "img": "/assets/images/icon/04.svg",
+    "title": "Student Management",
+    "desc": "Easily manage student records, enrollment, and profiles with a centralized system.",
+    "addclass": "feature-provide-box-items style-2"
+  },
+  {
+    "img": "/assets/images/icon/05.svg",
+    "title": "Teacher & Staff Management",
+    "desc": "Keep track of teacher and staff details, attendance, and schedules efficiently.",
+    "addclass": "feature-provide-box-items"
+  },
+  {
+    "img": "/assets/images/icon/06.svg",
+    "title": "Exam & Grade Tracking",
+    "desc": "Monitor exams, assessments, and student performance with automated reports.",
+    "addclass": "feature-provide-box-items style-2"
+  }
+]

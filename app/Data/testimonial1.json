@@ -1,0 +1,38 @@
+[
+  {
+    "img": "/assets/images/testimoial/testimonialProfileThumb1_1.jpg",
+    "subTitle": "CEO",
+    "title": "Rohit Verma",
+    "desc": "RC Techbox has transformed how we manage our business processes. From Shikshaflow to website management, everything is streamlined and efficient."
+  },
+  {
+    "img": "/assets/images/testimoial/testimonialProfileThumb1_2.jpg",
+    "subTitle": "Project Manager",
+    "title": "Sanjay Rao",
+    "desc": "Managing client projects, websites, and Shikshaflow modules has never been easier. RC Techbox’s solutions save us hours of manual work every week."
+  },
+  {
+    "img": "/assets/images/testimoial/testimonialProfileThumb1_3.jpg",
+    "subTitle": "Developer",
+    "title": "Amit Kumar",
+    "desc": "With RC Techbox’s Shikshaflow and website platforms, I can efficiently track tasks, monitor project progress, and ensure timely delivery for clients."
+  },
+  {
+    "img": "/assets/images/testimoial/testimonialProfileThumb1_1.jpg",
+    "subTitle": "Client",
+    "title": "Ravi Shankar",
+    "desc": "RC Techbox’s Shikshaflow and website solutions help me stay updated with my business operations, sales, and reports. It improves communication and efficiency."
+  },
+  {
+    "img": "/assets/images/testimoial/testimonialProfileThumb1_2.jpg",
+    "subTitle": "Administrator",
+    "title": "Sneha Gupta",
+    "desc": "Handling Shiksha Flow modules, website content, and client data has become seamless. RC Techbox provides all the tools we need in one platform."
+  },
+  {
+    "img": "/assets/images/testimoial/testimonialProfileThumb1_3.jpg",
+    "subTitle": "Head of IT",
+    "title": "Karan Singh",
+    "desc": "The analytics and dashboards in Shikshaflow give us valuable insights into operations and website performance, helping us make informed decisions."
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "img": "/assets/images/icon/serviceIcon1_1.svg",
+    "title": "Comprehensive Features",
+    "desc": "Manage attendance, exams, fees, reports, and more from a single user-friendly School ERP platform.",
+    "addclass": "service-box style1 wow fadeInUp"
+  },
+  {
+    "img": "/assets/images/icon/serviceIcon1_2.svg",
+    "title": "Flexible Customization",
+    "desc": "Easily adapt the ERP to match your school’s unique processes, curriculum, and administrative needs.",
+    "addclass": "service-box style1 wow fadeInUp"
+  },
+  {
+    "img": "/assets/images/icon/serviceIcon1_3.svg",
+    "title": "Affordable Plans",
+    "desc": "Choose from a range of cost-effective subscription plans tailored for schools of every size.",
+    "addclass": "service-box style1 active wow fadeInUp"
+  }
+]

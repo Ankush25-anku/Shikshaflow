@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "/assets/images/icon/serviceIcon3_1.svg",
+    "title": "Website Design & Development",
+    "desc": "Professional, responsive websites built to represent your brand and deliver a seamless user experience across all devices."
+  },
+  {
+    "icon": "/assets/images/icon/serviceIcon3_2.svg",
+    "title": "ERP Solutions",
+    "desc": "Custom ERP systems designed to streamline your business operations, improve efficiency, and support scalable growth."
+  },
+  {
+    "icon": "/assets/images/icon/serviceIcon3_3.svg",
+    "title": "Mobile App Development",
+    "desc": "Cross-platform mobile apps for Android and iOS that integrate with your ERP and business processes for maximum efficiency."
+  },
+  {
+    "icon": "/assets/images/icon/serviceIcon3_5.svg",
+    "title": "Branding & UI/UX Design",
+    "desc": "Modern, intuitive interfaces that reflect your brand identity and create engaging user experiences for web and ERP platforms."
+  },
+  {
+    "icon": "/assets/images/icon/serviceIcon3_5.svg",
+    "title": "Scalable Digital Solutions",
+    "desc": "Developed with the latest technologies to ensure fast, secure, and scalable ERP and web applications that grow with your business."
+  },
+  {
+    "icon": "/assets/images/icon/serviceIcon3_6.svg",
+    "title": "Interactive Experiences",
+    "desc": "User-focused ERP dashboards and websites that combine functionality with great design to boost engagement and productivity."
+  }
+]

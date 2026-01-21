@@ -1,0 +1,23 @@
+[
+  {
+    "img": "/assets/images/testimoial/01.jpg",
+    "logo": "/assets/images/testimoial/logo.png",
+    "subTitle": "Principal, Greenfield High School",
+    "title": "Samantha Lee",
+    "desc": "Implementing this School ERP has completely transformed our administration. Attendance, exams, and communication with parents are now seamless and efficient."
+  },
+  {
+    "img": "/assets/images/testimoial/01.jpg",
+    "logo": "/assets/images/testimoial/logo.png",
+    "subTitle": "Head of Academics, Sunrise Academy",
+    "title": "David Johnson",
+    "desc": "The ERP system is user-friendly and powerful. Teachers can manage classes and grades easily, and students benefit from better organized academic schedules."
+  },
+  {
+    "img": "/assets/images/testimoial/01.jpg",
+    "logo": "/assets/images/testimoial/logo.png",
+    "subTitle": "Administrator, Maple Leaf School",
+    "title": "Priya Nair",
+    "desc": "Our communication with parents has improved significantly. The platform is reliable, secure, and has made daily school management much more efficient."
+  }
+]
