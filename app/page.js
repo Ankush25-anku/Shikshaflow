@@ -6,7 +6,7 @@ import HowWork2 from "./Components/HowWork/HowWork2";
 import Choose2 from "./Components/Choose/Choose2";
 import Choose3 from "./Components/Choose/Choose3";
 
-import Testimonial2 from "./Components/Testimonial/Testimonial2";
+// import Testimonial2 from "./Components/Testimonial/Testimonial2";
 // import Brand2 from "../Components/Brand/Brand2";
 // import Blog1 from "../Components/Blog/Blog1";
 
@@ -56,7 +56,7 @@ const page = () => {
 
       <Choose3></Choose3>
       {/* <Pricing2></Pricing2> */}
-      <Testimonial2></Testimonial2>
+      {/* <Testimonial2></Testimonial2> */}
       {/* <Brand2></Brand2>
       <Blog1></Blog1> */}
     </div>
