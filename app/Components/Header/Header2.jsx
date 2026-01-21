@@ -42,15 +42,9 @@ export default function Header2({ variant }) {
           <div className="container">
             <div className="cs_main_header_in">
               <div className="cs_main_header_left">
-                <Link className="cs_site_branding" href="/">
-                  <Image
-                    src="/assets/images/logo/RClogo3.png"
-                    alt="RC Technosoft Logo"
-                    width={177}
-                    height={54}
-                    className="logo-colored"
-                    priority
-                  />
+                <Link href="/" className="cs_site_branding cs_text_logo">
+                  <span className="brand-primary">Shiksha</span>
+                  <span className="brand-secondary">Flow</span>
                 </Link>
               </div>
 

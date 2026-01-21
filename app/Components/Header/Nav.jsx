@@ -9,7 +9,7 @@ export default function Nav({ setMobileToggle }) {
   return (
     <ul className="cs_nav_list fw-medium">
       {/* Home */}
-      <li className="menu-item-has-children">
+      {/* <li className="menu-item-has-children">
         <Link href="/">Home</Link>
         <DropDown>
           <ul>
@@ -21,6 +21,10 @@ export default function Nav({ setMobileToggle }) {
             </li>
           </ul>
         </DropDown>
+      </li> */}
+
+           <li onClick={closeMenu}>
+        <Link href="/">Home</Link>
       </li>
 
       {/* About (Scroll to section) */}
@@ -29,7 +33,7 @@ export default function Nav({ setMobileToggle }) {
       </li>
 
       {/* Project */}
-      <li className="menu-item-has-children">
+      {/* <li className="menu-item-has-children">
         <Link href="/project">Project</Link>
         <DropDown>
           <ul>
@@ -38,10 +42,10 @@ export default function Nav({ setMobileToggle }) {
             </li>
           </ul>
         </DropDown>
-      </li>
+      </li> */}
 
       {/* Services */}
-      <li className="menu-item-has-children">
+      {/* <li className="menu-item-has-children">
         <Link href="/service">Services</Link>
         <DropDown>
           <ul>
@@ -53,7 +57,7 @@ export default function Nav({ setMobileToggle }) {
             </li>
           </ul>
         </DropDown>
-      </li>
+      </li> */}
 
       {/* Contact */}
       <li onClick={closeMenu}>

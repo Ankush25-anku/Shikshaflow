@@ -24,13 +24,9 @@ const Footer = () => {
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
-                  <Link href="/">
-                    <Image
-                      src="/assets/images/logo/RClogo3.png"
-                      alt="RCERP TECHNOLOGIES PVT LTD Logo"
-                      width={177}
-                      height={54}
-                    />
+                  <Link href="/" className="footer-text-logo">
+                    <span className="footer-brand-primary">Shiksha</span>
+                    <span className="footer-brand-secondary">Flow</span>
                   </Link>
                 </div>
 
@@ -41,14 +37,14 @@ const Footer = () => {
                     streamline operations and enhance their digital presence.
                   </p>
 
-                  <div className="store-links">
+                  {/* <div className="store-links">
                     <div className="apple">
                       <a href="#">App Store</a>
                     </div>
                     <div className="play">
                       <a href="#">Play Store</a>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -63,21 +59,17 @@ const Footer = () => {
                   <h3>Pages</h3>
                 </div>
                 <ul className="list-area">
+                  {/* Home – scroll to top */}
                   <li>
-                    <Link href="/">Home</Link>
+                    <Link href="/#home">Home</Link>
                   </li>
+
+                  {/* About – scroll to about section */}
                   <li>
-                    <Link href="/about">About Us</Link>
+                    <Link href="/#about">About Us</Link>
                   </li>
-                  <li>
-                    <Link href="/project">Integrations</Link>
-                  </li>
-                  <li>
-                    <Link href="/service">Features</Link>
-                  </li>
-                  <li>
-                    <Link href="/pricing">Pricing</Link>
-                  </li>
+
+                  {/* Contact – scroll to contact section */}
                   <li>
                     <Link href="/contact">Contact Us</Link>
                   </li>
@@ -90,7 +82,7 @@ const Footer = () => {
               className="col-xl-2 col-lg-4 col-md-6 wow fadeInUp"
               data-wow-delay=".8s"
             >
-              <div className="single-footer-widget">
+              {/* <div className="single-footer-widget">
                 <div className="widget-head">
                   <h3>Utility Pages</h3>
                 </div>
@@ -114,7 +106,7 @@ const Footer = () => {
                     <Link href="/team">Our Team</Link>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
 
             {/* CONTACT */}

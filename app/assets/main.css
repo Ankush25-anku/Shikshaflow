@@ -2538,7 +2538,11 @@ input[type="radio"]:checked ~ label::before {
   }
 }
 .preloader .animation-preloader .txt-loading {
-  font: bold 5em "Urbanist", sans-serif, "Urbanist", sans-serif;
+  font:
+    bold 5em "Urbanist",
+    sans-serif,
+    "Urbanist",
+    sans-serif;
   text-align: center;
   user-select: none;
 }
@@ -3532,12 +3536,21 @@ input[type="radio"]:checked ~ label::before {
   height: 6px;
   z-index: 10000001;
   background-color: var(--theme2);
-  -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
-    margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  -o-transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
-    margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
-    margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  -webkit-transition:
+    width 0.3s ease-in-out,
+    height 0.3s ease-in-out,
+    margin 0.3s ease-in-out,
+    opacity 0.3s ease-in-out;
+  -o-transition:
+    width 0.3s ease-in-out,
+    height 0.3s ease-in-out,
+    margin 0.3s ease-in-out,
+    opacity 0.3s ease-in-out;
+  transition:
+    width 0.3s ease-in-out,
+    height 0.3s ease-in-out,
+    margin 0.3s ease-in-out,
+    opacity 0.3s ease-in-out;
 }
 .cursor-inner.cursor-hover {
   margin-left: -35px;
@@ -5120,9 +5133,15 @@ input.main-search-input::placeholder {
   -ms-transform: translateX(calc(100% + 80px));
   -o-transform: translateX(calc(100% + 80px));
   transform: translateX(calc(100% + 80px));
-  -webkit-transition: transform 0.45s ease-in-out, opacity 0.45s ease-in-out;
-  -moz-transition: transform 0.45s ease-in-out, opacity 0.45s ease-in-out;
-  transition: transform 0.45s ease-in-out, opacity 0.45s ease-in-out;
+  -webkit-transition:
+    transform 0.45s ease-in-out,
+    opacity 0.45s ease-in-out;
+  -moz-transition:
+    transform 0.45s ease-in-out,
+    opacity 0.45s ease-in-out;
+  transition:
+    transform 0.45s ease-in-out,
+    opacity 0.45s ease-in-out;
   z-index: 99999;
   overflow-y: scroll;
   overscroll-behavior-y: contain;
@@ -11043,7 +11062,8 @@ textarea.is-invalid {
   padding: 15px 15px;
   border-radius: 16px;
   background: var(--white);
-  box-shadow: 0px 4px 8px -2px rgba(45, 54, 67, 0.08),
+  box-shadow:
+    0px 4px 8px -2px rgba(45, 54, 67, 0.08),
     0px 2px 4px -2px rgba(45, 54, 67, 0.06);
 }
 .technology-box-items.style-4 .logo {
@@ -12121,4 +12141,80 @@ textarea.is-invalid {
   box-shadow: 0 18px 40px rgba(37, 211, 102, 0.6);
 }
 
+/* Text Logo Styling */
+.cs_text_logo {
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  text-decoration: none;
+}
 
+.cs_text_logo .brand-primary {
+  color: #ffffff; /* matches navbar text */
+}
+
+.cs_text_logo .brand-secondary {
+  color: #7c5cff; /* matches CTA / accent purple */
+  margin-left: 4px;
+}
+
+/* Hover effect */
+.cs_text_logo:hover {
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cs_text_logo {
+    font-size: 22px;
+  }
+}
+
+/* ============================= */
+/* Footer Text Logo – ShikshaFlow */
+/* ============================= */
+/* ============================= */
+/* FIX FOOTER LOGO GAP COMPLETELY */
+/* ============================= */
+
+/* 1. Kill extra spacing from widget head */
+.footer-section .single-footer-widget .widget-head {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* 2. Footer text logo – tight spacing */
+.footer-text-logo {
+  display: inline-flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.4px;
+  text-decoration: none;
+  margin-bottom: 4px !important; /* force tight */
+}
+
+/* 3. Remove top spacing from footer content */
+.footer-section .single-footer-widget .footer-content {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* 4. Normalize paragraph spacing */
+.footer-section .single-footer-widget .footer-content p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  line-height: 1.6;
+  max-width: 340px;
+}
+
+/* Brand colors */
+.footer-brand-primary {
+  color: #1f2937;
+}
+.footer-brand-secondary {
+  color: #7c5cff;
+  margin-left: 4px;
+}
