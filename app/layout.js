@@ -32,9 +32,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta name="author" content="Themeservices" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-      </head>
+  <meta name="author" content="Themeservices" />
+
+  {/* ✅ Google Search Console Verification */}
+  <meta
+    name="google-site-verification"
+    content="eqlzrJSkLpD6_YS_fbv_DbXMo-cQzmrSJKRQQ5izDh0"
+  />
+
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+</head>
+
 
       <body className={`${urbanist.variable} ${nunito.variable}`}>
         {/* ✅ Global Header */}

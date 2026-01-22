@@ -12141,7 +12141,15 @@ textarea.is-invalid {
   box-shadow: 0 18px 40px rgba(37, 211, 102, 0.6);
 }
 
-/* Text Logo Styling */
+/* ===================================== */
+/* HEADER TEXT LOGO – FINAL FIX */
+/* ===================================== */
+
+/* Base logo style */
+/* ===================================== */
+/* HEADER TEXT LOGO – GUARANTEED FIX */
+/* ===================================== */
+
 .cs_text_logo {
   display: flex;
   align-items: center;
@@ -12151,16 +12159,31 @@ textarea.is-invalid {
   text-decoration: none;
 }
 
-.cs_text_logo .brand-primary {
-  color: #ffffff; /* matches navbar text */
-}
-
+/* Flow always purple */
 .cs_text_logo .brand-secondary {
-  color: #7c5cff; /* matches CTA / accent purple */
+  color: #7c5cff;
   margin-left: 4px;
 }
 
-/* Hover effect */
+/* DEFAULT → dark text (Contact, inner pages, initial load) */
+.cs_text_logo .brand-primary {
+  color: #1f2937;
+}
+
+/* ONLY when header is NOT sticky AND page is HERO (Home) */
+.cs_site_header:not(.cs-gescout_sticky)
+  .header_style_3
+  .cs_text_logo
+  .brand-primary {
+  color: #ffffff;
+}
+
+/* Sticky header → dark text */
+.cs_site_header.cs-gescout_sticky .cs_text_logo .brand-primary {
+  color: #1f2937;
+}
+
+/* Hover */
 .cs_text_logo:hover {
   opacity: 0.9;
 }
@@ -12218,3 +12241,7 @@ textarea.is-invalid {
   color: #7c5cff;
   margin-left: 4px;
 }
+
+/* ===================================== */
+/* HEADER TEXT LOGO – COLOR FIX (GLOBAL) */
+/* ===================================== */
