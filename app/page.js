@@ -49,9 +49,12 @@ const page = () => {
         </p>
 
         <p>
-          Schools using <strong>ShikshaFlow School ERP Software</strong> can
-          reduce manual work, improve accuracy, and gain real-time insights into
-          academic performance and administrative processes.
+          Schools using{" "}
+          <a href="/school-erp-software">
+            <strong>ShikshaFlow School ERP Software</strong>
+          </a>{" "}
+          can reduce manual work, improve accuracy, and gain real-time insights
+          into academic performance and administrative processes.
         </p>
       </section>
 
@@ -61,9 +64,8 @@ const page = () => {
       <About2
         subtitle="About Us"
         title="A Powerful and User-Friendly School ERP for Schools"
-        content="ShikshaFlow is designed to simplify school administration, enhance communication, and empower teachers, students, and parents. From attendance and fees to exams and reports, everything is managed on a single, easy-to-use platform."
+       content="ShikshaFlow is designed to simplify school administration, enhance communication, and empower teachers, students, and parents. Learn how our School ERP Software helps manage attendance, fees, exams, and reports on a single, easy-to-use platform."
         boximg1="/assets/images/icon/wcuIcon2_1.svg"
-        boxtitle1="Seamless Communication"
         boxcontent1="Bridge the gap between teachers, students, and parents with instant updates and notifications."
         boximg2="/assets/images/icon/wcuIcon2_2.svg"
         boxtitle2="Smart Administration"
